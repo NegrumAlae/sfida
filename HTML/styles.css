@@ -1,0 +1,84 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+pre{
+    text-align: center;
+    font-size: 25px;
+     ;
+}
+
+body{
+    background-color: rgb(189, 244, 226);
+    /*color: darkgreen; Color normal*/
+    /*color: rgb(0,0,255); Color en rgb*/
+    
+    color: #367246; /*Color en hexadecimal*/
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-variant: normal;
+
+    letter-spacing: 0.3px;
+    word-spacing: 0.5px;
+    /*text-align: center;*/
+    line-height: 18px;
+
+    /*text-decoration: line-through;
+    text-transform: uppercase;
+
+    text-indent:50px;
+    text-shadow:-10px 10px gray;
+    */
+}
+    /*CLASSI*/
+    .plant_name{
+        color: darkgreen;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /*margin-top: px;*/
+    }
+
+    .images{
+        margin-right: 20px;
+    }
+
+    .piante_da_interno{
+        background-color: rgb(181, 203, 223);
+    }
+
+    .piante_pendenti{
+        background-color: rgb(179, 230, 182);
+    }
+
+    .piante_grasse_succulente{
+        background-color: rgb(243, 186, 236);
+    }
+
+    .piante_fiori{
+        background-color: #e4e7ae;
+    }
+
+    .links{
+        margin-right: 3px;
+    }
+
+/*Per i link, questo è l'ordine giusto*/
+
+a:link{ /*No visitado*/
+    color:black
+}
+
+a:visited{ /*Già visitato*/
+    color: black;
+}
+
+a:hover{ /*Mouse sopra*/
+    color: rgb(91, 86, 86);
+}
+
+a:active{ /*Selezionato*/
+    color: white;
+}
+

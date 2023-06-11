@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fioraio Ciacci</title> <!-- titolo della tab -->
+    
+    <!-- Stili PrimeFaces -->
+    <link rel="stylesheet" href="primefaces-12.0.0/primefaces.css" />
+    
+    <!-- Stili personalizzati -->
+    <style>
+        .plant-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        .plant-image {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    <!-- Script PrimeFaces -->
+    <script src="primefaces-12.0.0/primefaces.js"></script>
+    
+    <!-- Script JavaScript -->
+    <script>
+        // Funzione JavaScript per mostrare un messaggio di conferma
+        function confermaEliminazione() {
+            if (confirm("Sei sicuro di voler eliminare questa pianta?")) {
+                // Logica per l'eliminazione della pianta
+                alert("La pianta è stata eliminata.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="plant-container">
+        <h1>Proprietà della pianta</h1>
+        
+        <img class="plant-image" src="path_to_image.jpg" alt="Immagine della pianta">
+        
+        <p><strong>Nome:</strong> Nome pianta</p>
+        <p><strong>Descrizione breve:</strong> Descrizione breve della pianta</p>
+        <p><strong>Paese di origine:</strong> Paese di origine della pianta</p>
+        <p><strong>Quantità in magazzino:</strong> 10</p>
+        <p><strong>Prezzo di vendita:</strong> $10</p>
+        
+        <button onclick="confermaEliminazione()">Elimina pianta</button>
+    </div>
+</body>
+</html>
